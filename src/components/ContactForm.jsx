@@ -35,10 +35,11 @@ export default function ContactForm() {
       event.stopPropagation();
     }
     setIsValidated(true);
-    const { name, email, message } = form.elements;
+    const { name, email, subject, message } = form.elements;
     const data = {
       name: name.value,
       email: email.value,
+      subject: subject.value,
       message: message.value,
     };
     if (form.checkValidity()) {
@@ -71,7 +72,7 @@ export default function ContactForm() {
       <Form noValidate validated={isValidated} onSubmit={handleSubmit}>
         <Form.Group className="mx-auto mb-3 form-group" controlId="name">
           <Form.Label>Name</Form.Label>
-          <Form.Control required type="text" placeholder="Your name" />
+          <Form.Control required type="text" placeholder="Preferred name" />
           <Form.Control.Feedback type="invalid">
             <h5>Name must be at least one character.</h5>
           </Form.Control.Feedback>
@@ -81,15 +82,21 @@ export default function ContactForm() {
           <Form.Control
             required
             pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
-            placeholder="someone@something.com"
+            placeholder="user@domain.com"
           />
           <Form.Control.Feedback type="invalid">
             <h5>Please enter a valid email.</h5>
           </Form.Control.Feedback>
         </Form.Group>
-        <Form.Group className="mx-auto mb-3 form-group" controlId="message">
+        <Form.Group className="mx-auto mb-3 form-group" controlId="subject">
           <Form.Label>Message</Form.Label>
-          <Form.Control required as="textarea" placeholder="Your message..." />
+          <Form.Control required placeholder="Freestyle subject" />
+          <Form.Control.Feedback type="invalid">
+            <h5>Please provide a valid subject.</h5>
+          </Form.Control.Feedback>
+        </Form.Group>
+        <Form.Group className="mx-auto mb-3 form-group" controlId="message">
+          <Form.Control required as="textarea" placeholder="Feel free to drop me something :D" />
           <Form.Control.Feedback type="invalid">
             <h5>Please provide a valid message.</h5>
           </Form.Control.Feedback>
