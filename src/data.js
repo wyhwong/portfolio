@@ -3,13 +3,19 @@ import { Icon } from "@iconify/react";
 
 // Projects Images (add your images to the images directory and import below)
 import Logo from "./images/logo.svg";
+import JupyterLogo from  "./images/jupyter-logo.png";
+import PytorchLogo from "./images/pytorch-logo.png";
+import TensorflowLogo from "./images/tensorflow-logo.png";
+import DartsLogo from "./images/darts-logo.png";
+import PythonLogo from "./images/python-logo.png";
+import StreamlitLogo from "./images/streamlit-logo.png";
 
-// Hero Images (add your images to the /images directory with the same names)
-import HeroLight from "./images/hero-light.jpg";
-import HeroDark from "./images/hero-dark.jpg";
+// Images (add your images to the /images directory with the same names)
+import LightTheme from "./images/light.jpg";
+import DarkTheme from "./images/dark.jpg";
 // If you change the import names above then you need to change the export names below
-export { HeroLight as Light };
-export { HeroDark as Dark };
+export { LightTheme as Light };
+export { DarkTheme as Dark };
 
 /* START HERE
  **************************************************************
@@ -27,8 +33,11 @@ export const Blog = <Icon icon="bi:linkedin" />;
  **************************************************************
   Add a second paragraph for the about me section.
 */
-export const moreInfo =
-  "As a software engineer, I engaged in various projects in computer vision, deep learning, IoT, and data science. I also took part in astrophysical researches in universities.";
+export const intro_p1 =
+  "After graduating from The Chinese University of Hong Kong in 2022, I have been working as a software engineer in the tech industry and a part-time research assistant in academia.";
+
+  export const intro_p2 =
+  "As a software engineer, I engaged in various projects in computer vision, deep learning, IoT, and data science. I also took part in astrophysical research under LIGO Scientific Collaboration in universities.";
 
 /* Skills
  ************************************************************** 
@@ -154,9 +163,41 @@ export const filteredProjects = ["TCPyTorch", "CATBOT", "TraefikLab"];
 // Replace the defualt GitHub image for matching repos below (images imported above - lines 4-5)
 export const projectCardImages = [
   {
-    name: "example-1",
-    image: Logo,
+    name: "TCPyTorch",
+    image: PytorchLogo,
   },
+  {
+    name: "TraefikLab",
+    image: JupyterLogo,
+  },
+  {
+    name: "portfolio",
+    image: Logo
+  },
+  {
+    name: "Sam-Saga",
+    image: PythonLogo
+  },
+  {
+    name: "DriftSim",
+    image: PythonLogo
+  },
+  {
+    name: "PAPER",
+    image: PythonLogo
+  },
+  {
+    name: "streamlit-playground",
+    image: StreamlitLogo
+  },
+  {
+    name: "Tensorflow-Docker",
+    image: TensorflowLogo
+  },
+  {
+    name: "CATBOT",
+    image: DartsLogo
+  }
 ];
 
 /* Contact Info

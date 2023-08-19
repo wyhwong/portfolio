@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Element } from "react-scroll";
 // Data
-import { moreInfo } from "../data";
+import { intro_p1, intro_p2 } from "../data";
 // Components
 import { Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
@@ -19,7 +19,7 @@ const StyledAboutMe = styled.section`
 `;
 
 export default function AboutMe() {
-  const { avatar_url, bio } = useSelector(selectData);
+  const { avatar_url } = useSelector(selectData);
 
   return (
     <Element name={"About"} id="about">
@@ -34,8 +34,8 @@ export default function AboutMe() {
           <Row className="align-items-center mt-5">
             <Col className="d-flex flex-column text-center">
               <Container>
-                <p>{bio}</p>
-                {moreInfo && <p>{moreInfo}</p>}
+                {intro_p1 && <p>{intro_p1}</p>}
+                {intro_p2 && <p>{intro_p2}</p>}
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
