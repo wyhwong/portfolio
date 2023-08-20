@@ -3,8 +3,9 @@ import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 // Components
 import Hero from "../components/Hero";
-import AboutMe from "../components/AboutMe";
+import About from "../components/About";
 import Education from "../components/Education";
+import Miscellaneous from "../components/Miscellaneous";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
@@ -26,11 +27,12 @@ export default function Home() {
     <>
       <Hero />
       <main>
-        <AboutMe />
-        <Education />
+        <About />
         <Experience />
         <Projects />
+        <Education />
         <Skills />
+        <Miscellaneous />
         <Contact />
       </main>
       <BackToTop home={"Home"} />

@@ -101,7 +101,7 @@ export default function ContactForm() {
               disabled={isProcessing}
               className="my-4"
             >
-              Submit{" "}
+              Send{" "}
               {isProcessing && (
                 <Spinner animation="border" variant="success" size="sm" />
               )}

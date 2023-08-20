@@ -86,11 +86,12 @@ export default function NavBar({ Logo }) {
     ],
     to: [
       { id: "1T", name: "Home", to: "Home" },
-      { id: "2T", name: "About Me", to: "About" },
-      { id: "4T", name: "Education", to: "Education" },
-      { id: "5T", name: "Experience", to: "Experience" },
-      { id: "6T", name: "Projects", to: "Projects" },
-      { id: "7T", name: "Skills", to: "Skills" },
+      { id: "2T", name: "About", to: "About" },
+      { id: "3T", name: "Experience", to: "Experience" },
+      { id: "4T", name: "Projects", to: "Projects" },
+      { id: "5T", name: "Education", to: "Education" },
+      { id: "6T", name: "Skills", to: "Skills" },
+      { id: "7T", name: "Miscellaneous", to: "Miscellaneous" },
       { id: "8T", name: "Contact", to: "Contact" },
     ],
   };

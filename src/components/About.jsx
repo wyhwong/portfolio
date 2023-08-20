@@ -9,7 +9,7 @@ import { resume, intro_p1, intro_p2 } from "../data";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
 
-const StyledAboutMe = styled.section`
+const StyledAbout = styled.section`
   p {
     font-size: 1.25rem;
   }
@@ -25,7 +25,7 @@ export default function AboutMe() {
 
   return (
     <Element name={"About"} id="about">
-      <StyledAboutMe className="section">
+      <StyledAbout className="section">
         <Container>
           <Container className="d-flex">
             <Title>
@@ -67,7 +67,7 @@ export default function AboutMe() {
             </Col>
           </Row>
         </Container>
-      </StyledAboutMe>
+      </StyledAbout>
     </Element>
   );
 }

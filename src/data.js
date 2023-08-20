@@ -17,7 +17,11 @@ import FMTLogo from "./images/fmt-logo.png";
 import GenevaLogo from "./images/geneva-logo.png";
 import NagoyaLogo from "./images/nu-logo.png";
 import TohokuLogo from "./images/tu-logo.png";
-
+import JLPTLogo from "./images/JapanFoundation-logo.png";
+import UIUCLogo from "./images/UIUC-logo.png";
+import GoogleLogo from "./images/google-logo.png";
+import DeepLearningAILogo from "./images/deeplearning.ai-logo.png";
+import wesLogo from "./images/wes-logo.png";
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -163,16 +167,16 @@ export const skillData = [
 export const educationData = [
   {
     id: 0,
-    name: "BSc. in Physics",
+    name: "B.Sc. in Physics",
     school: "The Chinese University of Hong Kong",
-    duration: "2018-2022",
+    duration: "2018 - 2022",
     logo: CUHKLogo
   },
   {
     id: 1,
-    name: "AdvDip. in FinTech",
-    school: "HKU SPACE",
-    duration: "2022-2023",
+    name: "Adv.Dip. in FinTech",
+    school: "HKU School of Professional and Continuing Education",
+    duration: "2022 - 2023",
     logo: HKUSPACELogo
   },
   {
@@ -194,17 +198,17 @@ export const educationData = [
 export const experienceData = [
   {
     id: 0,
-    name: "Part-time Research Assistant",
-    company: "Universidade de Santiago de Compostela",
-    duration: "Aug 2021 - Present",
-    logo: USCLogo
-  },
-  {
-    id: 1,
     name: "Software Engineer",
     company: "Sebit Company Limited",
     duration: "Jun 2022 - Aug 2023",
     logo: SebitLogo
+  },
+  {
+    id: 1,
+    name: "Part-time Research Assistant",
+    company: "University of Santiago de Compostela",
+    duration: "Aug 2021 - Aug 2023",
+    logo: USCLogo
   },
   {
     id: 2,
@@ -229,6 +233,38 @@ export const experienceData = [
   },
 ];
 
+export const miscellaneousData = [
+  {
+    id: 0,
+    name: "Accelerated Computer Science Fundamentals",
+    organization: "University of Illinois Urbana-Champaign | Couresra",
+    logo: UIUCLogo
+  },
+  {
+    id: 1,
+    name: "TensorFlow Developer Professional Certificate",
+    organization: "DeepLearning.AI | Couresra",
+    logo: DeepLearningAILogo
+  },
+  {
+    id: 2,
+    name: "Data Analytics Professional Certificate",
+    organization: "Google Career Certificates | Couresra",
+    logo: GoogleLogo
+  },
+  {
+    id: 3,
+    name: "Japanese Language Proficiency Test N1",
+    organization: "The Japanese Foundation",
+    logo: JLPTLogo
+  },
+  {
+    id: 4,
+    name: "International Academic Qualifications (US/CA)",
+    organization: "World Education Services",
+    logo: wesLogo
+  }
+];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://drive.google.com/file/d/1HfRzvKIorMSd1W0z1jRJ1O9dUNwiTE6w/view?usp=sharing";
