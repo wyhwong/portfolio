@@ -1,11 +1,12 @@
+import { useAppContext } from "../appContext";
 import styled from "styled-components";
 import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Element } from "react-scroll";
 // Data
-import { intro_p1, intro_p2 } from "../data";
+import { resume, intro_p1, intro_p2 } from "../data";
 // Components
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { Title } from "./globalStyledComponents";
 
 const StyledAboutMe = styled.section`
@@ -20,6 +21,7 @@ const StyledAboutMe = styled.section`
 
 export default function AboutMe() {
   const { avatar_url } = useSelector(selectData);
+  const { theme } = useAppContext();
 
   return (
     <Element name={"About"} id="about">
@@ -46,6 +48,22 @@ export default function AboutMe() {
                 className="mx-auto rounded-circle"
                 style={{ width: "15rem", height: "15rem" }}
               />
+            </Col>
+          </Row>
+          <Row className="mt-5 align-items-center">
+            <Col></Col>
+            <Col className="d-none d-md-block text-center">
+              {resume && (
+                <a href={resume}>
+                  <Button
+                    size="lg"
+                    variant={theme === "light" ? "outline-dark" : "outline-light"}
+                    className="mt-5"
+                  >
+                    R&eacute;sum&eacute;
+                  </Button>
+                </a>
+              )}
             </Col>
           </Row>
         </Container>

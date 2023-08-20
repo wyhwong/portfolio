@@ -9,6 +9,15 @@ import TensorflowLogo from "./images/tensorflow-logo.png";
 import DartsLogo from "./images/darts-logo.png";
 import PythonLogo from "./images/python-logo.png";
 import StreamlitLogo from "./images/streamlit-logo.png";
+import CUHKLogo from "./images/cuhk-logo.png";
+import HKUSPACELogo from "./images/hkuspace-logo.png";
+import SebitLogo from "./images/sebit-logo.png";
+import USCLogo from "./images/usc-logo.png";
+import FMTLogo from "./images/fmt-logo.png";
+import GenevaLogo from "./images/geneva-logo.png";
+import NagoyaLogo from "./images/nu-logo.png";
+import TohokuLogo from "./images/tu-logo.png";
+
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -150,6 +159,76 @@ export const skillData = [
     name: "Blender",
   },
 ];
+
+export const educationData = [
+  {
+    id: 0,
+    name: "BSc. in Physics",
+    school: "The Chinese University of Hong Kong",
+    duration: "2018-2022",
+    logo: CUHKLogo
+  },
+  {
+    id: 1,
+    name: "AdvDip. in FinTech",
+    school: "HKU SPACE",
+    duration: "2022-2023",
+    logo: HKUSPACELogo
+  },
+  {
+    id: 2,
+    name: "Special Auditing Student",
+    school: "Tohoku University",
+    duration: "Oct 2021 - Mar 2022",
+    logo: TohokuLogo
+  },
+  {
+    id: 3,
+    name: "Virtual Exchange Student",
+    school: "Nagoya University",
+    duration: "Apr 2021 - Aug 2021",
+    logo: NagoyaLogo
+  },
+];
+
+export const experienceData = [
+  {
+    id: 0,
+    name: "Part-time Research Assistant",
+    company: "Universidade de Santiago de Compostela",
+    duration: "Aug 2021 - Present",
+    logo: USCLogo
+  },
+  {
+    id: 1,
+    name: "Software Engineer",
+    company: "Sebit Company Limited",
+    duration: "Jun 2022 - Aug 2023",
+    logo: SebitLogo
+  },
+  {
+    id: 2,
+    name: "Exhibitor (Sebit Company Limited)",
+    company: "48th International Exhibition of Inventions Geneva",
+    duration: "Apr 2023",
+    logo: GenevaLogo
+  },
+  {
+    id: 3,
+    name: "AI Developer Intern",
+    company: "Flying Milktea Company Limited",
+    duration: "Dec 2021 - Jan 2022",
+    logo: FMTLogo
+  },
+  {
+    id: 4,
+    name: "Research Intern",
+    company: "The Chinese University of Hong Kong",
+    duration: "May 2020 - Aug 2020 / Jun 2021 - Aug 2021",
+    logo: CUHKLogo
+  },
+];
+
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://drive.google.com/file/d/1HfRzvKIorMSd1W0z1jRJ1O9dUNwiTE6w/view?usp=sharing";
