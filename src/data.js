@@ -220,7 +220,7 @@ export const experienceData = [
   {
     id: 3,
     name: "AI Developer Intern",
-    company: "Flying Milktea Company Limited",
+    company: "Flying Milk Tea Company Limited",
     duration: "Dec 2021 - Jan 2022",
     logo: FMTLogo
   },
