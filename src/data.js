@@ -21,7 +21,9 @@ import JLPTLogo from "./images/JapanFoundation-logo.png";
 import UIUCLogo from "./images/UIUC-logo.png";
 import GoogleLogo from "./images/google-logo.png";
 import DeepLearningAILogo from "./images/deeplearning.ai-logo.png";
-import wesLogo from "./images/wes-logo.png";
+import WesLogo from "./images/wes-logo.png";
+import LIGOLogo from "./images/ligo-logo.png";
+import IFTALogo from "./images/ifta-logo.png";
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -236,34 +238,48 @@ export const experienceData = [
 export const miscellaneousData = [
   {
     id: 0,
-    name: "Accelerated Computer Science Fundamentals",
-    organization: "University of Illinois Urbana-Champaign | Couresra",
-    logo: UIUCLogo
+    name: "Undergraduate Membership",
+    organization: "LIGO Scientific Collaboration",
+    duration: "Jan 2021 - Dec 2023",
+    logo: LIGOLogo
   },
   {
     id: 1,
-    name: "TensorFlow Developer Professional Certificate",
-    organization: "DeepLearning.AI | Couresra",
-    logo: DeepLearningAILogo
+    name: "Associate Financial Technologist",
+    organization: "Institute of Financial Technologists of Asia",
+    duration: "Aug 2023 - Dec 2023",
+    logo: IFTALogo
   },
   {
     id: 2,
-    name: "Data Analytics Professional Certificate",
-    organization: "Google Career Certificates | Couresra",
-    logo: GoogleLogo
-  },
-  {
-    id: 3,
     name: "Japanese Language Proficiency Test N1",
     organization: "The Japanese Foundation",
     logo: JLPTLogo
   },
   {
-    id: 4,
+    id: 3,
     name: "International Academic Qualifications (US/CA)",
     organization: "World Education Services",
-    logo: wesLogo
-  }
+    logo: WesLogo
+  },
+  {
+    id: 4,
+    name: "Accelerated Computer Science Fundamentals",
+    organization: "University of Illinois Urbana-Champaign | Couresra",
+    logo: UIUCLogo
+  },
+  {
+    id: 5,
+    name: "TensorFlow Developer Professional Certificate",
+    organization: "DeepLearning.AI | Couresra",
+    logo: DeepLearningAILogo
+  },
+  {
+    id: 6,
+    name: "Data Analytics Professional Certificate",
+    organization: "Google Career Certificates | Couresra",
+    logo: GoogleLogo
+  },
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)

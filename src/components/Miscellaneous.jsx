@@ -43,6 +43,7 @@ export default function Miscellaneous() {
                     <Container>
                       {certificates.name && <p>{certificates.name}</p>}
                       {certificates.organization && <p>{certificates.organization}</p>}
+                      {certificates.duration && <p>{certificates.duration}</p>}
                     </Container>
                   </Col>
                 </Row>
