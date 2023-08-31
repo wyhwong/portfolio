@@ -27,6 +27,7 @@ import IFTALogo from "./images/ifta-logo.png";
 import CFALogo from "./images/CFA-logo.png";
 import CULogo from "./images/CU-logo.png";
 import YULogo from "./images/YU-logo.png";
+import ATALLogo from "./images/ATAL-Logo.png";
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -218,34 +219,41 @@ export const educationData = [
 export const experienceData = [
   {
     id: 0,
+    name: "Assistant R&D Engineer",
+    company: "ATAL Engineering Group (ATAL)",
+    duration: "Aug 2023 - Now",
+    logo: ATALLogo
+  },
+  {
+    id: 1,
+    name: "Part-time Research Assistant",
+    company: "University of Santiago de Compostela",
+    duration: "Aug 2021 - Now",
+    logo: USCLogo
+  },
+  {
+    id: 2,
     name: "Software Engineer",
     company: "Sebit Company Limited",
     duration: "Jun 2022 - Aug 2023",
     logo: SebitLogo
   },
   {
-    id: 1,
-    name: "Part-time Research Assistant",
-    company: "University of Santiago de Compostela",
-    duration: "Aug 2021 - Aug 2023",
-    logo: USCLogo
-  },
-  {
-    id: 2,
+    id: 3,
     name: "Exhibitor (Sebit Company Limited)",
     company: "48th International Exhibition of Inventions Geneva",
     duration: "Apr 2023",
     logo: GenevaLogo
   },
   {
-    id: 3,
+    id: 4,
     name: "AI Developer Intern",
     company: "Flying Milk Tea Company Limited",
     duration: "Dec 2021 - Jan 2022",
     logo: FMTLogo
   },
   {
-    id: 4,
+    id: 5,
     name: "Research Intern",
     company: "The Chinese University of Hong Kong",
     duration: "May 2020 - Aug 2020 / Jun 2021 - Aug 2021",
@@ -258,14 +266,14 @@ export const miscellaneousData = [
     id: 0,
     name: "Undergraduate Membership",
     organization: "LIGO Scientific Collaboration",
-    duration: "Jan 2021 - Dec 2023",
+    duration: "Jan 2021 - Now",
     logo: LIGOLogo
   },
   {
     id: 1,
     name: "Associate Financial Technologist",
     organization: "Institute of Financial Technologists of Asia",
-    duration: "Aug 2023 - Dec 2023",
+    duration: "Aug 2023 - Now",
     logo: IFTALogo
   },
   {
@@ -288,28 +296,27 @@ export const miscellaneousData = [
   },
   {
     id: 5,
+    name: "Data Science for Investment Professionals Specialization",
+    organization: "CFA Institute | Couresra",
+    logo: CFALogo,
+  },
+  {
+    id: 6,
     name: "TensorFlow Developer Professional Certificate",
     organization: "DeepLearning.AI | Couresra",
     logo: DeepLearningAILogo
   },
   {
-    id: 6,
+    id: 7,
     name: "Data Analytics Professional Certificate",
     organization: "Google Career Certificates | Couresra",
     logo: GoogleLogo
   },
   {
-    id: 7,
+    id: 8,
     name: "Coursework: Financial Markets & Narrative Economics",
     organization: "Yale University | Couresra",
     logo: YULogo
-  },
-  {
-    id: 8,
-    name: "Data Science for Investment Professionals Specialization",
-    organization: "CFA Institute | Couresra",
-    logo: CFALogo,
-    duration: "In Progress",
   },
   {
     id: 9,
