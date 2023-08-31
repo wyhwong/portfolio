@@ -56,7 +56,7 @@ export const intro_p1 =
   "After graduating from The Chinese University of Hong Kong in 2022, I have been working as a software engineer in the tech industry and a part-time research assistant in academia.";
 
   export const intro_p2 =
-  "As a software engineer, I engaged in various projects in computer vision, deep learning, IoT, and data science. I also took part in astrophysical research under LIGO Scientific Collaboration.";
+  "In the tech industry, I engaged in various projects in computer vision, deep learning, IoT, and data science. I also took part in astrophysical research under LIGO Scientific Collaboration.";
 
 /* Skills
  ************************************************************** 
