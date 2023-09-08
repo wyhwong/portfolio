@@ -28,6 +28,7 @@ import CFALogo from "./images/CFA-logo.png";
 import CULogo from "./images/CU-logo.png";
 import YULogo from "./images/YU-logo.png";
 import ATALLogo from "./images/ATAL-Logo.png";
+import UCSCLogo from "./images/UCSC-logo.png";
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -53,10 +54,10 @@ export const Blog = <Icon icon="bi:linkedin" />;
   Add a second paragraph for the about me section.
 */
 export const intro_p1 =
-  "After graduating from The Chinese University of Hong Kong in 2022, I have been working as a software engineer in the tech industry and a part-time research assistant in academia.";
+  "\"Technology is life. Astrophysics and finance are interests.\"";
 
   export const intro_p2 =
-  "In the tech industry, I engaged in various projects in computer vision, deep learning, IoT, and data science. I also took part in astrophysical research under LIGO Scientific Collaboration.";
+  "I specialize in developing solutions with Bayesian statistics and machine/deep learning under various ML frameworks like Darts and PyTorch. My research interests include time series analysis, artificial intelligence, IoT applications, and extreme gravity.";
 
 /* Skills
  ************************************************************** 
@@ -221,14 +222,14 @@ export const experienceData = [
     id: 0,
     name: "Assistant R&D Engineer",
     company: "ATAL Engineering Group (ATAL)",
-    duration: "Aug 2023 - Now",
+    duration: "Since Aug 2023",
     logo: ATALLogo
   },
   {
     id: 1,
     name: "Part-time Research Assistant",
     company: "University of Santiago de Compostela",
-    duration: "Aug 2021 - Now",
+    duration: "Since Aug 2021",
     logo: USCLogo
   },
   {
@@ -320,6 +321,13 @@ export const miscellaneousData = [
   },
   {
     id: 9,
+    name: "Bayesian Statistics Specialization",
+    organization: "University of California, Santa Cruz | Couresra",
+    logo: UCSCLogo,
+    duration: "In Progress",
+  },
+  {
+    id: 10,
     name: "Financial Engineering and Risk Management Specialization",
     organization: "Columbia University | Couresra",
     logo: CULogo,
@@ -328,7 +336,7 @@ export const miscellaneousData = [
 ];
 
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
-export const resume = "https://drive.google.com/file/d/1HfRzvKIorMSd1W0z1jRJ1O9dUNwiTE6w/view?usp=sharing";
+export const resume = "";
 
 /* Projects
  ************************************************************** 
