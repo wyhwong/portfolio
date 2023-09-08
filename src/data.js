@@ -315,19 +315,25 @@ export const miscellaneousData = [
   },
   {
     id: 8,
+    name: "Certificate in Aviation Studies",
+    organization: "HKU School of Professional and Continuing Education",
+    logo: HKUSPACELogo
+  },
+  {
+    id: 9,
     name: "Coursework: Financial Markets & Narrative Economics",
     organization: "Yale University | Couresra",
     logo: YULogo
   },
   {
-    id: 9,
+    id: 10,
     name: "Bayesian Statistics Specialization",
     organization: "University of California, Santa Cruz | Couresra",
     logo: UCSCLogo,
     duration: "In Progress",
   },
   {
-    id: 10,
+    id: 11,
     name: "Financial Engineering and Risk Management Specialization",
     organization: "Columbia University | Couresra",
     logo: CULogo,
