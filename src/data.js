@@ -54,9 +54,9 @@ export const Blog = <Icon icon="bi:linkedin" />;
   Add a second paragraph for the about me section.
 */
 export const intro_p1 =
-  "\"Technology is life. Astrophysics and finance are interests.\"";
+  "Technology is life. Astrophysics and finance are interests.";
 
-  export const intro_p2 =
+export const intro_p2 =
   "I specialize in developing solutions with Bayesian statistics and machine/deep learning under various ML frameworks like Darts and PyTorch. My research interests include time series analysis, artificial intelligence, IoT applications, and extreme gravity.";
 
 /* Skills
@@ -71,53 +71,53 @@ export const skillData = [
   },
   {
     id: 1,
-    skill: <Icon icon="logos:kubernetes" className="display-4" />,
-    name: "Kubernetes",
-  },
-  {
-    id: 2,
     skill: <Icon icon="logos:docker-icon" className="display-4" />,
     name: "Docker",
   },
   {
-    id: 3,
+    id: 2,
     skill: <Icon icon="devicon:jenkins" className="display-4" />,
     name: "Jenkins",
   },
   {
-    id: 4,
+    id: 3,
     skill: <Icon icon="devicon:git" className="display-4" />,
     name: "Git",
   },
   {
-    id: 5,
+    id: 4,
     skill: <Icon icon="devicon:traefikproxy" className="display-4" />,
     name: "Traefik",
   },
   {
-    id: 6,
+    id: 5,
     skill: <Icon icon="logos:nginx" className="display-4" />,
     name: "Nginx",
   },
   {
-    id: 7,
+    id: 6,
     skill: <Icon icon="mdi:ansible" className="display-4" />,
     name: "Ansible",
   },
   {
-    id: 8,
+    id: 7,
     skill: <Icon icon="devicon:pytorch" className="display-4" />,
     name: "PyTorch",
   },
   {
-    id: 9,
+    id: 8,
     skill: <Icon icon="logos:tensorflow" className="display-4" />,
     name: "TensorFlow",
   },
   {
-    id: 10,
+    id: 9,
     skill: <Icon icon="devicon:pandas" className="display-4" />,
     name: "Pandas",
+  },
+  {
+    id: 10,
+    skill: <Icon icon="logos:fastapi-icon" className="display-4" />,
+    name: "FastAPI",
   },
   {
     id: 11,
@@ -189,14 +189,14 @@ export const skillData = [
 export const educationData = [
   {
     id: 0,
-    name: "B.Sc. in Physics",
+    name: "Bachlor of Science in Physics",
     school: "The Chinese University of Hong Kong",
     duration: "2018 - 2022",
     logo: CUHKLogo
   },
   {
     id: 1,
-    name: "Adv.Dip. in FinTech",
+    name: "Advanced Diploma in Financial Technology",
     school: "HKU School of Professional and Continuing Education",
     duration: "2022 - 2023",
     logo: HKUSPACELogo
@@ -267,14 +267,14 @@ export const miscellaneousData = [
     id: 0,
     name: "Undergraduate Membership",
     organization: "LIGO Scientific Collaboration",
-    duration: "Jan 2021 - Now",
+    duration: "Since Jan 2021",
     logo: LIGOLogo
   },
   {
     id: 1,
     name: "Associate Financial Technologist",
     organization: "Institute of Financial Technologists of Asia",
-    duration: "Aug 2023 - Now",
+    duration: "Since Aug 2023",
     logo: IFTALogo
   },
   {
