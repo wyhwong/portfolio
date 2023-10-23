@@ -189,7 +189,7 @@ export const skillData = [
 export const educationData = [
   {
     id: 0,
-    name: "Bachlor of Science in Physics",
+    name: "Bachelor of Science in Physics",
     school: "The Chinese University of Hong Kong",
     duration: "2018 - 2022",
     logo: CUHKLogo
