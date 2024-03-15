@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1566e1d9.css",
-    "main.js": "/portfolio/static/js/main.401b5edb.js",
+    "main.js": "/portfolio/static/js/main.49890be3.js",
     "static/media/light.jpg": "/portfolio/static/media/light.71fecaf82432360289f4.jpg",
     "static/media/UCSC-logo.png": "/portfolio/static/media/UCSC-logo.3379215eec7936125e5a.png",
     "static/media/hkuspace-logo.png": "/portfolio/static/media/hkuspace-logo.54870043b68ae941a1ac.png",
     "static/media/usc-logo.png": "/portfolio/static/media/usc-logo.7a98096185a4be67660e.png",
     "static/media/dark.jpg": "/portfolio/static/media/dark.0c6c69d78ba637362af4.jpg",
+    "static/media/UA-logo.png": "/portfolio/static/media/UA-logo.c3cf9018c47bd7a67019.png",
     "static/media/YU-logo.png": "/portfolio/static/media/YU-logo.7beb59bc2f705edf1490.png",
     "static/media/tu-logo.png": "/portfolio/static/media/tu-logo.848ef9db8450f01483ea.png",
     "static/media/jupyter-logo.png": "/portfolio/static/media/jupyter-logo.e0e612fd290b62ecd44a.png",
@@ -14,7 +15,6 @@
     "static/media/cuhk-logo.png": "/portfolio/static/media/cuhk-logo.64c0b7d19e43d5ec589a.png",
     "static/media/tensorflow-logo.png": "/portfolio/static/media/tensorflow-logo.585cd07c225d86bf09b8.png",
     "static/media/CFA-logo.png": "/portfolio/static/media/CFA-logo.7715aba92d8686e71b49.png",
-    "static/media/CU-logo.png": "/portfolio/static/media/CU-logo.af8013b3d21680036b6c.png",
     "static/media/fmt-logo.png": "/portfolio/static/media/fmt-logo.81f4b22e77db7224044b.png",
     "static/media/ifta-logo.png": "/portfolio/static/media/ifta-logo.2ece1589af0247d947ba.png",
     "static/media/ligo-logo.png": "/portfolio/static/media/ligo-logo.696fbae3509f3e812834.png",
@@ -36,10 +36,10 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.1566e1d9.css.map": "/portfolio/static/css/main.1566e1d9.css.map",
-    "main.401b5edb.js.map": "/portfolio/static/js/main.401b5edb.js.map"
+    "main.49890be3.js.map": "/portfolio/static/js/main.49890be3.js.map"
   },
   "entrypoints": [
     "static/css/main.1566e1d9.css",
-    "static/js/main.401b5edb.js"
+    "static/js/main.49890be3.js"
   ]
 }
