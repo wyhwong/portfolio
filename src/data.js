@@ -25,10 +25,10 @@ import WesLogo from "./images/wes-logo.png";
 import LIGOLogo from "./images/ligo-logo.png";
 import IFTALogo from "./images/ifta-logo.png";
 import CFALogo from "./images/CFA-logo.png";
-import CULogo from "./images/CU-logo.png";
 import YULogo from "./images/YU-logo.png";
 import ATALLogo from "./images/ATAL-Logo.png";
 import UCSCLogo from "./images/UCSC-logo.png";
+import UALogo from "./images/UA-logo.png"
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -227,34 +227,41 @@ export const experienceData = [
   },
   {
     id: 1,
-    name: "Part-time Research Assistant",
-    company: "University of Santiago de Compostela",
-    duration: "Since Aug 2021",
-    logo: USCLogo
+    name: "Guest Speaker",
+    company: "HKU School of Professional and Continuing Education",
+    duration: "Nov 2023",
+    logo: HKUSPACELogo
   },
   {
     id: 2,
+    name: "Part-time Research Assistant",
+    company: "University of Santiago de Compostela",
+    duration: "Aug 2021 - Oct 2023",
+    logo: USCLogo
+  },
+  {
+    id: 3,
     name: "Software Engineer",
     company: "Sebit Company Limited",
     duration: "Jun 2022 - Aug 2023",
     logo: SebitLogo
   },
   {
-    id: 3,
-    name: "Exhibitor (Sebit Company Limited)",
+    id: 4,
+    name: "Exhibitor",
     company: "48th International Exhibition of Inventions Geneva",
     duration: "Apr 2023",
     logo: GenevaLogo
   },
   {
-    id: 4,
+    id: 5,
     name: "AI Developer Intern",
     company: "Flying Milk Tea Company Limited",
     duration: "Dec 2021 - Jan 2022",
     logo: FMTLogo
   },
   {
-    id: 5,
+    id: 6,
     name: "Research Intern",
     company: "The Chinese University of Hong Kong",
     duration: "May 2020 - Aug 2020 / Jun 2021 - Aug 2021",
@@ -291,52 +298,51 @@ export const miscellaneousData = [
   },
   {
     id: 4,
+    name: "Reinforcement Learning Specialization",
+    organization: "University of Alberta | Couresra",
+    logo: UALogo
+  },
+  {
+    id: 5,
     name: "Accelerated Computer Science Fundamentals",
     organization: "University of Illinois Urbana-Champaign | Couresra",
     logo: UIUCLogo
   },
   {
-    id: 5,
+    id: 6,
     name: "Data Science for Investment Professionals Specialization",
     organization: "CFA Institute | Couresra",
     logo: CFALogo,
   },
   {
-    id: 6,
+    id: 7,
     name: "TensorFlow Developer Professional Certificate",
     organization: "DeepLearning.AI | Couresra",
     logo: DeepLearningAILogo
   },
   {
-    id: 7,
+    id: 8,
     name: "Data Analytics Professional Certificate",
     organization: "Google Career Certificates | Couresra",
     logo: GoogleLogo
   },
   {
-    id: 8,
+    id: 9,
     name: "Certificate in Aviation Studies",
     organization: "HKU School of Professional and Continuing Education",
     logo: HKUSPACELogo
   },
   {
-    id: 9,
+    id: 10,
     name: "Coursework: Financial Markets & Narrative Economics",
     organization: "Yale University | Couresra",
     logo: YULogo
   },
   {
-    id: 10,
+    id: 11,
     name: "Bayesian Statistics Specialization",
     organization: "University of California, Santa Cruz | Couresra",
     logo: UCSCLogo,
-    duration: "In Progress",
-  },
-  {
-    id: 11,
-    name: "Financial Engineering and Risk Management Specialization",
-    organization: "Columbia University | Couresra",
-    logo: CULogo,
     duration: "In Progress",
   },
 ];
