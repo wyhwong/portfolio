@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.39ec8380.css",
-    "main.js": "/portfolio/static/js/main.d14769e2.js",
+    "main.js": "/portfolio/static/js/main.174e7e0c.js",
     "static/media/light.jpg": "/portfolio/static/media/light.71fecaf82432360289f4.jpg",
+    "static/media/UTA-logo.png": "/portfolio/static/media/UTA-logo.f42ebc266afeb92c3e22.png",
     "static/media/UCSC-logo.png": "/portfolio/static/media/UCSC-logo.3379215eec7936125e5a.png",
     "static/media/hkuspace-logo.png": "/portfolio/static/media/hkuspace-logo.54870043b68ae941a1ac.png",
     "static/media/usc-logo.png": "/portfolio/static/media/usc-logo.7a98096185a4be67660e.png",
@@ -36,10 +37,10 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.39ec8380.css.map": "/portfolio/static/css/main.39ec8380.css.map",
-    "main.d14769e2.js.map": "/portfolio/static/js/main.d14769e2.js.map"
+    "main.174e7e0c.js.map": "/portfolio/static/js/main.174e7e0c.js.map"
   },
   "entrypoints": [
     "static/css/main.39ec8380.css",
-    "static/js/main.d14769e2.js"
+    "static/js/main.174e7e0c.js"
   ]
 }
