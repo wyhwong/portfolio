@@ -28,7 +28,8 @@ import CFALogo from "./images/CFA-logo.png";
 import YULogo from "./images/YU-logo.png";
 import ATALLogo from "./images/ATAL-Logo.png";
 import UCSCLogo from "./images/UCSC-logo.png";
-import UALogo from "./images/UA-logo.png"
+import UALogo from "./images/UA-logo.png";
+import UTALogo from "./images/UTA-logo.png"
 
 // Images (add your images to the /images directory with the same names)
 import LightTheme from "./images/light.jpg";
@@ -189,27 +190,34 @@ export const skillData = [
 export const educationData = [
   {
     id: 0,
+    name: "Master of Science in Data Science",
+    school: "The University of Texas at Austin",
+    duration: "Since 2024",
+    logo: UTALogo
+  },
+  {
+    id: 1,
     name: "Bachelor of Science in Physics",
     school: "The Chinese University of Hong Kong",
     duration: "2018 - 2022",
     logo: CUHKLogo
   },
   {
-    id: 1,
+    id: 2,
     name: "Advanced Diploma in Financial Technology",
     school: "HKU School of Professional and Continuing Education",
     duration: "2022 - 2023",
     logo: HKUSPACELogo
   },
   {
-    id: 2,
+    id: 3,
     name: "Special Auditing Student",
     school: "Tohoku University",
     duration: "Oct 2021 - Mar 2022",
     logo: TohokuLogo
   },
   {
-    id: 3,
+    id: 4,
     name: "Virtual Exchange Student",
     school: "Nagoya University",
     duration: "Apr 2021 - Aug 2021",
